@@ -1,0 +1,13 @@
+{
+    "name": "Bookmarker",
+    "description": "Bookmark webpages easily",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["sctiveTab"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "home.js"
+    }
+  }
